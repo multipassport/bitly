@@ -1,10 +1,10 @@
 # Bitly url shorterer
 
-That is a script which either converts URL to bit.ly shortlink or returns the number of bit.ly shortlink clicks.
+That is a script which either converts URL to [bit.ly](https://bitly.com) shortlink or returns the number of [bit.ly](https://bitly.com) shortlink clicks.
 
 ### How to install
 
-Before running the script you should get bit.ly [Generic Access Token](https://bitly.com/a/oauth_apps)
+Before running the script you should get [bit.ly](https://bitly.com) [Generic Access Token](https://bitly.com/a/oauth_apps)
 It should look like this: `abcd0c405a474414c97cb65e7b8efghj`
 
 Then create an .env file within script directory and paste Token after equal sign(no spaces allowed):

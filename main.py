@@ -31,7 +31,10 @@ def is_short_link(headers, url):
 
 
 def create_parser():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description='Script which either converts URL to bit.ly shortlink'
+            ' or returns the number of bit.ly shortlink clicks.',
+        )
     parser.add_argument(
         'url',
         help='Enter url to shorten it or bitlink to get total clicks '

@@ -4,10 +4,10 @@ That is a script which either converts URL to [bit.ly](https://bitly.com) shortl
 
 ### How to install
 
-Before running the script you should get [bit.ly](https://bitly.com) [Generic Access Token](https://bitly.com/a/oauth_apps)
+Before running the script you should get [bit.ly](https://bitly.com) [Generic Access Token](https://bitly.com/a/oauth_apps).
 It should look like this: `abcd0c405a474414c97cb65e7b8efghj`
 
-Then create an .env file within script directory and paste Token after equal sign(no spaces allowed):
+Then create an `.env` file within script directory and paste Token after equal sign(no spaces allowed):
 ```
 BITLY_TOKEN=YourToken
 ```
